@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header{
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #989d9c;
+    cursor: pointer;
+}
+
+.button-header{
+    color: #ffff;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 21px;
+    height: 41px;
+    width: 130px;
+    background-color: #665ae1;
+}
+
+img{
+    margin-left: 125px;
+    height: 500px;
+    width: 568px;
+    display: inline-block;
+}
+
+section{
+
+    margin-left: 86px;
+    display: inline-block;
+    
+}
+
+h1{
+    
+    color: #515151;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+
+}
+h2{
+    
+    color: #515151;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+
+}
+
+p{
+    margin-bottom: 65px;
+    margin-top: 32px;
+    width: 515px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.button-section{
+    border: none;
+    margin: 20px 0px 20px 0px;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    height: 64px;
+    width: 239px;
+    background-color: #ADFF00;
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+
+}
+
+@media screen and (max-width: 900px){
+    .link-header{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .button-header{
+        display: none;
+    }
+    
+    p{
+        display: none;
+    }
+
+    img{
+        position: static;
+        width: 354px;
+        height: 317px;
+    }
+    
+    section{
+        position: static;
+        margin: 10px;
+        display: block;
+        height: auto;
+    }
+
+    h1{
+        margin: 15px;
+        font-weight: 900;
+        width: auto;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+    
+    h2{
+        margin-bottom: 15px;
+        width: auto;
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .button-section{
+        display: block;
+        margin: 0 auto; 
+       
+    }
+
+    
+}
+
+    
+
